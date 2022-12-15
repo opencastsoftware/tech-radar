@@ -35,6 +35,7 @@ radar_visualization({
           "quadrant": 2,
           "ring": 2,
           "label": "Green Software Development",
+          "link": "https://principles.green/",
           "active": true,
           "moved": 0
         },

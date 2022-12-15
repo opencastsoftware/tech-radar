@@ -16,16 +16,16 @@ jobs:
         uses: borales/actions-yarn@v4
         with:
           cmd: install # will run `yarn install` command
-      - name: Build production bundle
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: build:prod # will run `yarn build:prod` command
+      # - name: Build production bundle
+      #   uses: borales/actions-yarn@v4
+      #   with:
+      #     cmd: build:prod # will run `yarn build:prod` command
       # Share artifact inside workflow
       - name: Share artifact inside workflow
         uses: actions/upload-artifact@v1
         with:
           name: yarn-github-actions-build
-          path: build  
+          path: docs  
   deploy: 
     runs-on: ubuntu-latest
     # When application is successfully tested and build has been generated

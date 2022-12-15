@@ -28,6 +28,7 @@ jobs:
           path: docs  
   deploy: 
     runs-on: ubuntu-latest
+    environment: dev
     # When application is successfully tested and build has been generated
     # Then we can start with deployment
     needs: build

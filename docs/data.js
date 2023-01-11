@@ -47,11 +47,11 @@ radar_visualization({
           "moved": 0
         },
         {
-          "quadrant": 3,
+          "quadrant": 4,
           "ring": 2,
-          "label": "AWS Glue",
+          "label": "AI Chatbots",
           "active": true,
-          "moved": 0
+          "moved": 1
         },
         {
           "quadrant": 3,

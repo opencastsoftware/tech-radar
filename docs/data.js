@@ -47,7 +47,7 @@ radar_visualization({
           "moved": 0
         },
         {
-          "quadrant": 4,
+          "quadrant": 3,
           "ring": 2,
           "label": "AI Chatbots",
           "active": true,

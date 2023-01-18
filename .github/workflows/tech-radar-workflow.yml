@@ -21,6 +21,8 @@ jobs:
       #   with:
       #     cmd: build:prod # will run `yarn build:prod` command
       # Share artifact inside workflow
+        with:
+          cmd: build
       - name: Share artifact inside workflow
         uses: actions/upload-artifact@v1
         with:

@@ -8,16 +8,23 @@
   "directories": {
     "doc": "docs"
   },
+  "browser": {
+    "fs": false
+ },
   "devDependencies": {
     "browser-sync": "^2.27.7",
     "eslint": "^5.7.0",
     "htmllint": "^0.7.2",
-    "socket.io": "^4.4.1"
+    "socket.io": "^4.4.1",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "csvtojson": "^2.0.0"
   },
   "resolutions": {
     "qs": "6.2.4"
   },
   "scripts": {
+    "build": "webpack",
     "start": "browser-sync docs -w",
     "lint": "npm run lint:js && npm run lint:html",
     "lint:js": "eslint docs/*.js",

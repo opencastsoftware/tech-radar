@@ -1,3 +1,7 @@
+import data from './entries.json' assert {type: "json"}
+
+const entries = data.techs;
+
 radar_visualization({
     svg_id: "radar",
     width: 1450,
@@ -23,87 +27,6 @@ radar_visualization({
     print_layout: true,
     // zoomed_quadrant: 0,
     //ENTRIES
-    entries: [
-        {
-          "quadrant": 3,
-          "ring": 3,
-          "label": "Blockchain",
-          "active": true,
-          "moved": 0
-        },
-        {
-          "quadrant": 2,
-          "ring": 2,
-          "label": "Green Software Development",
-          "link": "https://principles.green/",
-          "active": true,
-          "moved": 1
-        },
-        {
-          "quadrant": 1,
-          "ring": 2,
-          "label": "SRE",
-          "active": true,
-          "moved": 0
-        },
-        {
-          "quadrant": 3,
-          "ring": 2,
-          "label": "AI Chatbots",
-          "active": true,
-          "moved": 1
-        },
-        {
-          "quadrant": 3,
-          "ring": 0,
-          "label": "Airflow",
-          "active": true,
-          "moved": 0
-        },
-        {
-          "quadrant": 3,
-          "ring": 0,
-          "label": "Databricks",
-          "active": true,
-          "moved": 0
-        },
-        {
-          "quadrant": 3,
-          "ring": 1,
-          "label": "Flink",
-          "link": "https://engineering.zalando.com/tags/apache-flink.html",
-          "active": true,
-          "moved": 0
-        },
-        {
-          "quadrant": 3,
-          "ring": 1,
-          "label": "Google BigQuery",
-          "active": true,
-          "moved": 0
-        },
-        {
-          "quadrant": 3,
-          "ring": 3,
-          "label": "Hadoop",
-          "active": true,
-          "moved": 0
-        },
-        {
-          "quadrant": 3,
-          "ring": 1,
-          "label": "Presto",
-          "active": true,
-          "moved": 0
-        },
-        {
-          "quadrant": 3,
-          "ring": 0,
-          "label": "Spark",
-          "link": "https://engineering.zalando.com/tags/apache-spark.html",
-          "active": true,
-          "moved": 0
-        }
-      ]
+    entries
     //ENTRIES
   });

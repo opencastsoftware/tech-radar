@@ -1,2 +1,2 @@
 require('csvtojson')
-require('../docs/data.js')
+require('./data.js')

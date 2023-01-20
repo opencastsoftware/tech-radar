@@ -16,7 +16,7 @@ fetch('entries.csv').then((response) => response.text()).then(
         grid: "#bbb",
         inactive: "#ddd"
       },
-      title: "Opencast Tech Radar — 2022.12",
+      title: "Opencast Tech Radar — January 2023",
       quadrants: [
         { name: "Tools" },
         { name: "Techniques" },
@@ -30,7 +30,7 @@ fetch('entries.csv').then((response) => response.text()).then(
         { name: "HOLD", color: "#efafa9" }
       ],
       print_layout: true,
-      // zoomed_quadrant: 0,
+      //zoomed_quadrant: 2,
       //ENTRIES
       entries
       //ENTRIES

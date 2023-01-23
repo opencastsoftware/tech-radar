@@ -1,3 +1,6 @@
 quadrant,ring,label,link,active,moved
-2,2,"Green Software Development","https://principles.green/",true,1
-2,2,"And Another thing",,false,0
+2,1,"Green Software Development","https://principles.green/",TRUE,1
+2,1,"And Another thing","",FALSE,0
+3,2,"Technology 1","http://google.com",TRUE,1
+0,3,Tools1,,FALSE,0
+1,0,Techniques 1,,TRUE,1
